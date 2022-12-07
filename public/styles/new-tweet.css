@@ -6,9 +6,13 @@
   justify-items: space-between;
   padding: 0.6em;
   width: 100%;
-  margin: 0px auto 10px auto;
+  margin: 15px auto 5px auto;
   border-radius: 4px;
+}
+
+.tweetform:hover {
   box-shadow: 3px 3px 4px 4px rgba(205, 198, 198, 0.818);
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .formfoot {
@@ -23,7 +27,7 @@
 
 .formfoot button {
   color: white;
-  background-color: #4056A1;
+  background-image: linear-gradient(to bottom, #0f2027, #203a43, #203a43, #0f2027);
 }
 
 main form textarea {
@@ -42,7 +46,8 @@ main form textarea {
 
 main form textarea::placeholder {
   font-style: italic;
-  background: radial-gradient(circle, rgba(64, 86, 161, 1) 0%, rgba(0, 142, 219, 1) 100%);
+  font-size: 1em;
+  background: rgba(0, 131, 163, 1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,5 +60,5 @@ main form label {
 }
 
 .red {
-  color: red;
+  color: #E3340B;
 }

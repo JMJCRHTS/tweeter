@@ -1,0 +1,91 @@
+.tweetlist {
+  padding: 0.6em;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgba(29, 27, 27, 0.798);
+  padding: 0.6em;
+  padding-bottom: 0.3em;
+  margin-bottom: 20px;
+}
+
+section article:hover {
+  box-shadow: 6px 6px 3px rgba(205, 198, 198, 0.818);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.tweetheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1.5em;
+  padding-left: 0.5em;
+  font-size: 0.8em;
+}
+
+.tweetheader div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweetheader div img {
+  padding-right: 5px;
+  max-height: 45px;
+  max-width: auto;
+}
+
+.tweetheader>p {
+  font-weight: 600;
+  color: rgb(173, 173, 173);
+}
+
+section article>p {
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 1em;
+}
+
+section footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 4px solid rgba(29, 27, 27, 0.798);
+  font-size: 0.5em;
+  padding: 0.7em 1em 0 1em;
+}
+
+section footer div {
+  display: flex;
+  justify-content: space-around;
+  gap: 12%;
+  align-items: center;
+  color: #005063;
+}
+
+section footer div i {
+  font-size: 1.5em;
+  align-items: center;
+  transition: all .2s ease-in-out;
+}
+
+section footer div i:hover {
+  transform: scale(1.2);
+}
+
+#flag:hover {
+  color: #E3A50B;
+}
+
+#retweet:hover {
+  color: #00B5E2;
+}
+
+#heart:hover {
+  color: #E3340B;
+}
