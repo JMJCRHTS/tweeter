@@ -1,0 +1,56 @@
+.tweetform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-items: space-between;
+  padding: 0.6em;
+  width: 100%;
+  margin: 0px auto 10px auto;
+  border-radius: 4px;
+  box-shadow: 3px 3px 4px 4px rgba(205, 198, 198, 0.818);
+}
+
+.formfoot {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-family: "Bungee", sans-serif;
+  font-size: 0.75em;
+}
+
+.formfoot button {
+  color: white;
+  background-color: #4056A1;
+}
+
+main form textarea {
+  border-bottom: 4px solid rgba(29, 27, 27, 0.798);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 5px;
+  width: 100%;
+  height: 1.5em;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+main form textarea::placeholder {
+  font-style: italic;
+  background: radial-gradient(circle, rgba(64,86,161,1) 0%, rgba(0,142,219,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main form label {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: rgba(29, 27, 27, 0.702)
+}
