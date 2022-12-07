@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-color: #008edb;
+  background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+}
+
+header h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.8em;
+  width: 100%;
+  margin-top: -20;
+
+}
+
+header h2 strong {
+  font-weight: 600;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+
+.image img {
+  max-width: 256px;
+  max-height: 256px;
+}
+
+.text {
+  display: flex; 
+  position: absolute;
+  z-index: 10;
+  margin-top: 400px;
+  left: 0;
+  right: 0;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

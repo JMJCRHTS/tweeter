@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 120px;
+  width: 100vw;
+  margin: 0;
+  color: #FFFFFF;
+  padding: 1em 1.5em 0 1.5em;
+  z-index: 50;
+  background-color: #4056A1;
+  background-image: url("https://www.transparenttextures.com/patterns/office.png");
+}
+
+nav .logo {
+  font-family: 'Bungee', sans-serif;
+  font-size: 1.75em;
+}
+
+nav .tweetlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+nav p {
+  font-size: 1em;
+  margin: 0 auto;
+
+}
+
+nav i {
+  color: #c04912;
+  display: block;
+}
+
+nav p em {
+  font-weight: bold;
+  font-style: normal;
+}
