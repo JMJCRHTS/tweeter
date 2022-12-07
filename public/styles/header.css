@@ -36,7 +36,7 @@ header h2 strong {
 }
 
 .text {
-  display: flex; 
+  display: flex;
   position: absolute;
   z-index: 10;
   margin-top: 400px;

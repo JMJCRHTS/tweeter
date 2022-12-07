@@ -31,9 +31,8 @@ main form textarea {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin-top: 5px;
+  margin-top: 20px;
   width: 100%;
-  height: 1.5em;
   background-color: transparent;
   resize: none;
   outline: none;
@@ -43,7 +42,7 @@ main form textarea {
 
 main form textarea::placeholder {
   font-style: italic;
-  background: radial-gradient(circle, rgba(64,86,161,1) 0%, rgba(0,142,219,1) 100%);
+  background: radial-gradient(circle, rgba(64, 86, 161, 1) 0%, rgba(0, 142, 219, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -53,4 +52,8 @@ main form label {
   font-size: 0.9em;
   font-weight: 600;
   color: rgba(29, 27, 27, 0.702)
+}
+
+.red {
+  color: red;
 }
