@@ -28,6 +28,11 @@
 .formfoot button {
   color: white;
   background-image: linear-gradient(to bottom, #0f2027, #203a43, #203a43, #0f2027);
+  transition: all .2s ease-in-out;
+}
+
+.formfoot button:hover {
+  transform: scale(1.1)
 }
 
 main form textarea {

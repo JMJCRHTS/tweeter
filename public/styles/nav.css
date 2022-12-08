@@ -12,6 +12,30 @@
   }
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(60deg)
+  }
+
+  50% {
+    transform: rotate(120deg)
+  }
+
+  100% {
+    transform: rotate(180deg)
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,16 +44,22 @@ nav {
   height: 120px;
   width: 100vw;
   margin: 0;
+  background-color: transparent;
   color: #FFFFFF;
   padding: 1em 1.5em 0 1.5em;
   z-index: 50;
-  background-color: #0083A3;
-  background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
 }
 
 nav .logo {
   font-family: 'Bungee', sans-serif;
   font-size: 1.75em;
+}
+
+.nav-el-bg {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.259);
+  border-radius: 5px;
+  -webkit-animation: fadein 1s;
 }
 
 nav .tweetlink {
@@ -38,6 +68,11 @@ nav .tweetlink {
   justify-content: center;
   align-items: center;
   gap: 0;
+  transition: all .2s ease-in-out;
+}
+
+.tweetlink:hover {
+  transform: scale(1.1);
 }
 
 nav p {
@@ -50,6 +85,12 @@ nav i {
   color: #c03212;
   display: block;
   animation: updown 2s infinite;
+  transition: all .2s ease-in-out;
+}
+
+nav .hovered {
+  animation: spin 0.2s;
+  transform: rotate(180deg)
 }
 
 nav p em {

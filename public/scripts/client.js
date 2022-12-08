@@ -28,7 +28,9 @@ $(document).ready(function() {
   };
 
   const loadTweets = function() {
-    $.get('/tweets').then((data) => renderTweets(data));
+    $.get('/tweets')
+      .then((data) => renderTweets(data))
+      .catch((error) => console.log(error));
   };
 
   loadTweets();
@@ -50,6 +52,7 @@ $(document).ready(function() {
     }
     $("aside").hide(200);
     $(this).trigger('reset');
+    $(this).find('output').html('140');
 
     $.post('/tweets', data).then(() => {
       $.get('/tweets').then((data) => {

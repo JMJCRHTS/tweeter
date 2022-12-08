@@ -5,6 +5,10 @@
   <!-- Meta Information -->
   <title>Tweeter - Home Page</title>
 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- External CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +26,7 @@
   <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
   <link rel="stylesheet" href="/styles/display-tweet.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/scroll-button.css" type="text/css" />
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -32,6 +37,7 @@
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
   <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+  <script type="text/javascript" src="/scripts/stretch-form.js"></script>
 
   <!-- The Good Stuff -->
 </head>
@@ -39,12 +45,15 @@
 <body>
 
   <!-- Top nav bar (fixed) -->
+  <div id="scrollbtn">
+    <i class="fas fa-angle-double-up"></i>
+  </div>
   <nav>
-    <span class="logo">tweeter</span>
-    <div class="tweetlink">
-      <p><em>Write</em> a new tweet</p>
-      <i class="fas fa-angle-double-down"></i>
-    </div>
+      <span class="logo">tweeter</span>
+      <div class="tweetlink">
+        <p><em>Write</em> a new tweet</p>
+        <i class="fas fa-angle-double-down"></i>
+      </div>
   </nav>
 
   <!-- page header element containing the image and profile name -->

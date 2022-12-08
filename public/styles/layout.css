@@ -14,6 +14,10 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 /*
  * Global layout stuff
  */
