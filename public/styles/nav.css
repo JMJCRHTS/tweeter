@@ -52,13 +52,13 @@ nav {
 
 nav .logo {
   font-family: 'Bungee', sans-serif;
-  font-size: 1.75em;
+  font-size: 1.7em;
 }
 
 .nav-el-bg {
-  padding: 12px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.259);
-  border-radius: 5px;
+  border-radius: 10px;
   -webkit-animation: fadein 1s;
 }
 
