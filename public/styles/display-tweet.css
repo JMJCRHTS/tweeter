@@ -78,14 +78,14 @@ section footer div i:hover {
   transform: scale(1.2);
 }
 
-#flag:hover {
+.flag:hover {
   color: #E3A50B;
 }
 
-#retweet:hover {
+.retweet:hover {
   color: #00B5E2;
 }
 
-#heart:hover {
+.heart:hover {
   color: #E3340B;
 }
