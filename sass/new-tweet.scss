@@ -1,3 +1,5 @@
+@use "index";
+
 .tweetform {
   display: flex;
   flex-direction: column;
@@ -11,7 +13,7 @@
 }
 
 .tweetform:hover {
-  box-shadow: 3px 3px 4px 4px rgba(205, 198, 198, 0.818);
+  box-shadow: 3px 3px 4px 4px index.$shdwGrey;
   transition: box-shadow 0.2s ease-in-out;
 }
 
@@ -21,13 +23,13 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 15px;
-  font-family: "Bungee", sans-serif;
+  font-family: index.$bungee;
   font-size: 0.75em;
 }
 
 .formfoot button {
-  color: white;
-  background-image: linear-gradient(to bottom, #0f2027, #203a43, #203a43, #0f2027);
+  color: index.$white;
+  background-image: linear-gradient(to bottom, index.$offDarkBlue, index.$offBlue, index.$tweetBlue, index.$offBlue, index.$offDarkBlue) ;
   transition: all .2s ease-in-out;
 }
 
@@ -36,7 +38,7 @@
 }
 
 main form textarea {
-  border-bottom: 4px solid rgba(29, 27, 27, 0.798);
+  border-bottom: 4px solid index.$offBlack;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -52,7 +54,7 @@ main form textarea {
 main form textarea::placeholder {
   font-style: italic;
   font-size: 1em;
-  background: rgba(0, 131, 163, 1);
+  background-image: linear-gradient(to bottom, index.$offDarkBlue, index.$offBlue, index.$tweetBlue, index.$offBlue, index.$offDarkBlue);
   -webkit-background-clip: text;
   color: transparent;
 
@@ -61,11 +63,11 @@ main form textarea::placeholder {
 main form label {
   font-size: 0.9em;
   font-weight: 600;
-  color: rgba(29, 27, 27, 0.702)
+  color: index.$offBlack
 }
 
 .red {
-  color: #E3340B;
+  color: index.$offRed;
 }
 
 aside {
@@ -73,10 +75,10 @@ aside {
   justify-content: center;
   align-items: center;
   gap: 2%;
-  border: 4px solid #E3340B;
+  border: 4px solid index.$navOrnge;
   width: 70%;
   margin: 20px auto 0 auto;
-  color: #E3340B;
+  color: index.$navOrnge;
 }
 
 aside p {

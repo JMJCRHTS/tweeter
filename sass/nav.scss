@@ -1,3 +1,5 @@
+@use "index";
+
 @keyframes updown {
   0% {
     transform: translateY(0%);
@@ -45,19 +47,19 @@ nav {
   width: 100vw;
   margin: 0;
   background-color: transparent;
-  color: #FFFFFF;
+  color: index.$white;
   padding: 1em 1.5em 0 1.5em;
   z-index: 50;
 }
 
 nav .logo {
-  font-family: 'Bungee', sans-serif;
+  font-family: index.$bungee;
   font-size: 1.7em;
 }
 
 .nav-el-bg {
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.259);
+  background-color: index.$transBlack;
   border-radius: 10px;
   animation: fadein 1s;
 }
@@ -82,7 +84,7 @@ nav p {
 }
 
 nav i {
-  color: #c03212;
+  color: index.$navOrnge;
   display: block;
   animation: updown 2s infinite;
   transition: all .2s ease-in-out;

@@ -11,7 +11,7 @@
 }
 
 .tweetform:hover {
-  box-shadow: 3px 3px 4px 4px rgba(205, 198, 198, 0.818);
+  box-shadow: 3px 3px 4px 4px rgba(186, 181, 186, 0.8196078431);
   transition: box-shadow 0.2s ease-in-out;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .formfoot button {
-  color: white;
-  background-image: linear-gradient(to bottom, #0f2027, #203a43, #203a43, #0f2027);
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #274156, #1C6E8C, #0083A3, #1C6E8C, #274156);
   transition: all 0.2s ease-in-out;
 }
 
@@ -36,7 +36,7 @@
 }
 
 main form textarea {
-  border-bottom: 4px solid rgba(29, 27, 27, 0.798);
+  border-bottom: 4px solid rgba(27, 25, 25, 0.8156862745);
   border-left: none;
   border-right: none;
   border-top: none;
@@ -52,7 +52,7 @@ main form textarea {
 main form textarea::placeholder {
   font-style: italic;
   font-size: 1em;
-  background: rgb(0, 131, 163);
+  background-image: linear-gradient(to bottom, #274156, #1C6E8C, #0083A3, #1C6E8C, #274156);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -60,7 +60,7 @@ main form textarea::placeholder {
 main form label {
   font-size: 0.9em;
   font-weight: 600;
-  color: rgba(29, 27, 27, 0.702);
+  color: rgba(27, 25, 25, 0.8156862745);
 }
 
 .red {
@@ -72,10 +72,10 @@ aside {
   justify-content: center;
   align-items: center;
   gap: 2%;
-  border: 4px solid #E3340B;
+  border: 4px solid #c03212;
   width: 70%;
   margin: 20px auto 0 auto;
-  color: #E3340B;
+  color: #c03212;
 }
 
 aside p {

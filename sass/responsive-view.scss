@@ -1,4 +1,7 @@
+@use "index";
+
 @media only screen and (min-width: 1024px) {
+
   body {
     display: flex;
     flex-direction: row;
@@ -6,8 +9,10 @@
   }
 
   nav {
-    background-color: #4056A1;
-    box-shadow: 0px 8px 5px #f4f1ec;
+    background-color: index.$tweetBlue;
+    background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+    box-shadow: 0px 8px 5px index.$bgBeige;
+
   }
 
   .maincontainer {
@@ -29,7 +34,7 @@
   }
 
   .pageheader:hover {
-    box-shadow: 8px 8px 3px rgba(205, 198, 198, 0.818);
+    box-shadow: 8px 8px 3px index.$shdwGrey;
     transition: box-shadow 0.2s ease-in-out;
   }
 

@@ -1,3 +1,5 @@
+@use "index";
+
 @keyframes updown {
   0% {
     transform: translateY(-10%);
@@ -22,11 +24,11 @@
   right: 30px;
   width: 65px;
   height: 65px;
-  background-color: #d00a0aac;
+  background-color: index.$transOrnge;
   z-index: 100;
   border-radius: 50%;
   font-size: 1.5em;
-  color: #f4f1ec;
+  color: index.$bgBeige;
   transition: all 0.2s ease-in-out
 }
 
