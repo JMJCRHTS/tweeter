@@ -4,10 +4,23 @@ Tweeter is a simple, single-page Twitter clone built using a combination of HTML
 
 Mobile layout and function:
 
+https://user-images.githubusercontent.com/113642847/206638003-d3fd8462-efb5-4e29-aee2-0dae2a4d2617.mov
+
+
+Screenshot
+
+
+!["mobile mode screenshot"](https://github.com/JMJCRHTS/tweeter/blob/master/docs/Mobile.png)
 
 Desktop layout and function:
 
+https://user-images.githubusercontent.com/113642847/206638027-4fdb3185-9f61-489a-a65f-c223328276b3.mov
 
+
+Screenshot
+
+
+!["desktop mode screenshot"](https://github.com/JMJCRHTS/tweeter/blob/master/docs/Desktop.png)
 
 ## Getting Started
 
