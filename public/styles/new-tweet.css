@@ -54,8 +54,8 @@ main form textarea::placeholder {
   font-size: 1em;
   background: rgba(0, 131, 163, 1);
   -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+
 }
 
 main form label {

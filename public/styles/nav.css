@@ -26,7 +26,7 @@
   }
 }
 
-@-webkit-keyframes fadein {
+@keyframes fadein {
   from {
     opacity: 0;
   }
@@ -59,7 +59,7 @@ nav .logo {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.259);
   border-radius: 10px;
-  -webkit-animation: fadein 1s;
+  animation: fadein 1s;
 }
 
 nav .tweetlink {

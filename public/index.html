@@ -6,7 +6,6 @@
   <title>Tweeter - Home Page</title>
 
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- External CSS -->
@@ -27,6 +26,7 @@
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
   <link rel="stylesheet" href="/styles/display-tweet.css" type="text/css" />
   <link rel="stylesheet" href="/styles/scroll-button.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/desktop-view.css" type="text/css" />
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -68,29 +68,27 @@
 
 
   <!-- Page-specific (main) content here -->
-  <main class="container">
-    <section class="new-tweet">
-      <aside>
-        <i class="fa-solid fa-circle-exclamation"></i>
-        <p></p>
-        <i class="fa-solid fa-circle-exclamation"></i>
-      </aside>
-      <form class="tweetform" action="/tweets" method="POST">
-        <label for="tweet-text"></label>
-        <textarea name="text" id="tweet-text" placeholder="What are you humming about?" rows="2"></textarea>
-        <div class="formfoot">
-          <button type="submit">Tweet</button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
-        </div>
-      </form>
-    </section>
-
-
-    <section class="tweetlist">
-    </section>
-
-
-  </main>
+  <div class="maincontainer">
+    <main class="container">
+      <section class="new-tweet">
+        <aside>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p></p>
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </aside>
+        <form class="tweetform" action="/tweets" method="POST">
+          <label for="tweet-text"></label>
+          <textarea name="text" id="tweet-text" placeholder="What are you humming about?" rows="2"></textarea>
+          <div class="formfoot">
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
+      <section class="tweetlist">
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
