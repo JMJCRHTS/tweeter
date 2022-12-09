@@ -2,13 +2,16 @@
   0% {
     transform: translateY(-10%);
   }
+
   50% {
     transform: translateY(10%);
   }
+
   100% {
     transform: translateY(-10%);
   }
 }
+
 #scrollbtn {
   position: fixed;
   display: flex;

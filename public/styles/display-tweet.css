@@ -39,12 +39,12 @@ section article:hover {
   max-width: auto;
 }
 
-.tweetheader > p {
+.tweetheader>p {
   font-weight: 600;
   color: rgba(96, 88, 86, 0.8078431373);
 }
 
-section article > p {
+section article>p {
   font-size: 0.8em;
   font-weight: 600;
   padding-left: 1em;

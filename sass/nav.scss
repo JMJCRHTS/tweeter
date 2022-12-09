@@ -57,7 +57,7 @@ nav .logo {
   font-size: 1.7em;
 }
 
-.nav-el-bg {
+nav .nav-el-bg {
   padding: 10px;
   background-color: index.$transBlack;
   border-radius: 10px;
@@ -73,14 +73,18 @@ nav .tweetlink {
   transition: all .2s ease-in-out;
 }
 
-.tweetlink:hover {
+nav .tweetlink:hover {
   transform: scale(1.1);
 }
 
 nav p {
   font-size: 1em;
   margin: 0 auto;
+}
 
+nav p em {
+  font-weight: bold;
+  font-style: normal;
 }
 
 nav i {
@@ -93,9 +97,4 @@ nav i {
 nav .hovered {
   animation: spin 0.2s;
   transform: rotate(180deg)
-}
-
-nav p em {
-  font-weight: bold;
-  font-style: normal;
 }

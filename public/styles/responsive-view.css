@@ -4,17 +4,20 @@
     flex-direction: row;
     align-items: flex-start;
   }
+
   nav {
-    background-color: #0083A3;
+    background-color: #00B5E2;
     background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
     box-shadow: 0px 8px 5px #f4f1ec;
   }
+
   .maincontainer {
     padding-top: 13.8%;
     width: 53%;
     margin: 0;
     margin-left: 46%;
   }
+
   .pageheader {
     position: fixed;
     width: 40%;
@@ -25,14 +28,17 @@
     border-radius: 10px;
     padding: 1.5em;
   }
+
   .pageheader:hover {
     box-shadow: 8px 8px 3px rgba(186, 181, 186, 0.8196078431);
     transition: box-shadow 0.2s ease-in-out;
   }
+
   .tweetlist {
     padding-top: 0px;
     width: 100%;
   }
+
   .nav-el-bg {
     background-color: transparent;
     padding: none;
@@ -40,11 +46,14 @@
     -webkit-animation: none;
   }
 }
+
 @media only screen and (max-width: 650px) {
+
   html,
   body {
     font-size: 19px;
   }
+
   nav {
     padding: 0em 1em 0em 1em;
     height: 80px;
