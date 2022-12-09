@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+  }
+
+  nav {
+    background-color: #4056A1;
+    box-shadow: 0px 8px 5px #f4f1ec;
+  }
+
+  .maincontainer {
+    padding-top: 13.8%;
+    width: 53%;
+    margin: 0;
+    margin-left: 46%;
+  }
+
+  .pageheader {
+    position: fixed;
+    width: 40%;
+    min-width: 420px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 1.5em;
+  }
+
+  .pageheader:hover {
+    box-shadow: 8px 8px 3px rgba(205, 198, 198, 0.818);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .tweetlist {
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .nav-el-bg {
+    background-color: transparent;
+    padding: none;
+    border-radius: 0px;
+    -webkit-animation: none;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  html,
+  body {
+    font-size: 19px;
+  }
+
+  nav {
+    padding: 0em 1em 0em 1em;
+    height: 80px;
+  }
+}

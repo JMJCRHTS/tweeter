@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
+  // hides error message
   $("aside").hide();
 
+  // creates tweet element from data
   const createTweetElement = function(tweetData) {
 
     let time = timeago.format(tweetData.created_at);
@@ -20,6 +22,7 @@ $(document).ready(function() {
     return $tweet;
   };
 
+  // takes in array of tweets and renders them
   const renderTweets = function(tweets) {
     tweets.forEach(tweet => {
       let $el = createTweetElement(tweet);
@@ -27,12 +30,14 @@ $(document).ready(function() {
     });
   };
 
+  // loads tweets from database
   const loadTweets = function() {
     $.get('/tweets')
       .then((data) => renderTweets(data))
       .catch((error) => console.log(error));
   };
 
+  // loads tweets on page load
   loadTweets();
 
   $('.tweetform').submit(function(event) {

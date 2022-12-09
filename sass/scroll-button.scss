@@ -2,13 +2,17 @@
   0% {
     transform: translateY(-10%);
   }
+
   50% {
     transform: translateY(10%);
   }
+
   100% {
     transform: translateY(-10%);
   }
 }
+
+
 #scrollbtn {
   position: fixed;
   display: flex;
@@ -18,12 +22,12 @@
   right: 30px;
   width: 65px;
   height: 65px;
-  background-color: rgba(208, 10, 10, 0.6745098039);
+  background-color: #d00a0aac;
   z-index: 100;
   border-radius: 50%;
   font-size: 1.5em;
   color: #f4f1ec;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out
 }
 
 #scrollbtn:hover {

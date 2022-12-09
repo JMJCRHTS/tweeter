@@ -39,12 +39,12 @@ section article:hover {
   max-width: auto;
 }
 
-.tweetheader > p {
+.tweetheader>p {
   font-weight: 600;
   color: rgb(173, 173, 173);
 }
 
-section article > p {
+section article>p {
   font-size: 0.8em;
   font-weight: 600;
   padding-left: 1em;
@@ -71,7 +71,7 @@ section footer div {
 section footer div i {
   font-size: 1.5em;
   align-items: center;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 section footer div i:hover {

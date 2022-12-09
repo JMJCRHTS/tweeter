@@ -1,0 +1,24 @@
+.pageheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 520px;
+  background-color: #0083A3;
+  background-image: url("https://www.transparenttextures.com/patterns/noisy.png");
+  z-index: 5;
+}
+
+header h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.8em;
+  width: 100%;
+  margin-top: -20;
+  text-align: center;
+}
+
+header h2 strong {
+  font-weight: 600;
+}

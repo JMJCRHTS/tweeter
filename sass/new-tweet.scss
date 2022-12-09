@@ -28,11 +28,11 @@
 .formfoot button {
   color: white;
   background-image: linear-gradient(to bottom, #0f2027, #203a43, #203a43, #0f2027);
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .formfoot button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1)
 }
 
 main form textarea {
@@ -52,15 +52,16 @@ main form textarea {
 main form textarea::placeholder {
   font-style: italic;
   font-size: 1em;
-  background: rgb(0, 131, 163);
+  background: rgba(0, 131, 163, 1);
   -webkit-background-clip: text;
   color: transparent;
+
 }
 
 main form label {
   font-size: 0.9em;
   font-weight: 600;
-  color: rgba(29, 27, 27, 0.702);
+  color: rgba(29, 27, 27, 0.702)
 }
 
 .red {
